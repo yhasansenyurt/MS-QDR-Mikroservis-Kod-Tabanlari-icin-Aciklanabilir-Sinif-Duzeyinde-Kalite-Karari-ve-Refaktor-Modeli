@@ -1,0 +1,6 @@
+dotnet clean
+dotnet restore
+dotnet build -c Release
+
+
+python run_ms_qdr.py --solution hvl-shopping/HavelsanShoppingApi.sln --repo-root hvl-shopping

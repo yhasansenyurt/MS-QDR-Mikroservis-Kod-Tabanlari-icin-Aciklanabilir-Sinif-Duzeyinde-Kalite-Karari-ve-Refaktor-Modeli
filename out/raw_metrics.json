@@ -1,0 +1,5307 @@
+{
+  "generatedAtUtc": "2025-12-29T04:09:55.2619214Z",
+  "solution": "C:\\Users\\Joseph\\Desktop\\YTK Project Analysis\\hvl-shopping\\HavelsanShoppingApi.sln",
+  "classes": [
+    {
+      "Id": "WebApi:WebApi.Controllers.BaseApiController",
+      "Name": "BaseApiController",
+      "Namespace": "WebApi.Controllers",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/BaseApiController.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.BasketController",
+      "Name": "BasketController",
+      "Namespace": "WebApi.Controllers",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/BasketController.cs",
+      "Metrics": {
+        "LOC": 25,
+        "NOM": 3,
+        "NOF": 1,
+        "WMC": 3,
+        "RFC": 4,
+        "CBO": 2,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.CategoryController",
+      "Name": "CategoryController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/CategoryController.cs",
+      "Metrics": {
+        "LOC": 44,
+        "NOM": 6,
+        "NOF": 0,
+        "WMC": 6,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 6,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.CouponController",
+      "Name": "CouponController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/CouponController.cs",
+      "Metrics": {
+        "LOC": 80,
+        "NOM": 8,
+        "NOF": 1,
+        "WMC": 8,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 16,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.CustomerController",
+      "Name": "CustomerController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/CustomerController.cs",
+      "Metrics": {
+        "LOC": 79,
+        "NOM": 7,
+        "NOF": 0,
+        "WMC": 7,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 7,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.OrderController",
+      "Name": "OrderController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/OrderController.cs",
+      "Metrics": {
+        "LOC": 9,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.ProductController",
+      "Name": "ProductController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/ProductController.cs",
+      "Metrics": {
+        "LOC": 51,
+        "NOM": 7,
+        "NOF": 0,
+        "WMC": 7,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 7,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.PublishController",
+      "Name": "PublishController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/PublishController.cs",
+      "Metrics": {
+        "LOC": 40,
+        "NOM": 3,
+        "NOF": 1,
+        "WMC": 3,
+        "RFC": 5,
+        "CBO": 3,
+        "Cyclomatic": 4,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.SellerController",
+      "Name": "SellerController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/SellerController.cs",
+      "Metrics": {
+        "LOC": 58,
+        "NOM": 5,
+        "NOF": 0,
+        "WMC": 5,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.StripeWebhookController",
+      "Name": "StripeWebhookController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/StripeWebhookController.cs",
+      "Metrics": {
+        "LOC": 58,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 9,
+        "CBO": 5,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Controllers.v1.UploadController",
+      "Name": "UploadController",
+      "Namespace": "WebApi.Controllers.v1",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Controllers/UploadController.cs",
+      "Metrics": {
+        "LOC": 16,
+        "NOM": 1,
+        "NOF": 1,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 3,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Extensions.RPCSubscriptionsExtension",
+      "Name": "RPCSubscriptionsExtension",
+      "Namespace": "WebApi.Extensions",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Extensions/RPCRegistrationsExtension.cs",
+      "Metrics": {
+        "LOC": 19,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Extensions.SwaggerExtension",
+      "Name": "SwaggerExtension",
+      "Namespace": "WebApi.Extensions",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Extensions/SwaggerExtension.cs",
+      "Metrics": {
+        "LOC": 34,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Helpers.UploadImagesHelper",
+      "Name": "UploadImagesHelper",
+      "Namespace": "WebApi.Helpers",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Helpers/UploadImagesHelper.cs",
+      "Metrics": {
+        "LOC": 43,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 10,
+        "CBO": 2,
+        "Cyclomatic": 4,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Middlewares.ErrorHandlerMiddleware",
+      "Name": "ErrorHandlerMiddleware",
+      "Namespace": "WebApi.Middlewares",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Middlewares/ErrorHandlerMiddleware.cs",
+      "Metrics": {
+        "LOC": 51,
+        "NOM": 1,
+        "NOF": 1,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "WebApi:WebApi.Settings.JWTSettings",
+      "Name": "JWTSettings",
+      "Namespace": "WebApi.Settings",
+      "Project": "WebApi",
+      "Service": "WebApi",
+      "FilePath": "WebApi/Settings/JWTSettings.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 0,
+        "NOF": 5,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Common.AuditableBaseEntity",
+      "Name": "AuditableBaseEntity",
+      "Namespace": "Domain.Common",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Common/AuditableBaseEntity.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Common.ProfileInformation",
+      "Name": "ProfileInformation",
+      "Namespace": "Domain.Common",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Common/ProfileInformation.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Entities.Address",
+      "Name": "Address",
+      "Namespace": "Domain.Entities",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Entities/Address.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Entities.BasketItem",
+      "Name": "BasketItem",
+      "Namespace": "Domain.Entities",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Entities/BasketItem.cs",
+      "Metrics": {
+        "LOC": 10,
+        "NOM": 0,
+        "NOF": 7,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Entities.Category",
+      "Name": "Category",
+      "Namespace": "Domain.Entities",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Entities/Category.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Entities.Customer",
+      "Name": "Customer",
+      "Namespace": "Domain.Entities",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Entities/Customer.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 0,
+        "NOF": 5,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Entities.CustomerBasket",
+      "Name": "CustomerBasket",
+      "Namespace": "Domain.Entities",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Entities/CustomerBasket.cs",
+      "Metrics": {
+        "LOC": 10,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Entities.Image",
+      "Name": "Image",
+      "Namespace": "Domain.Entities",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Entities/Image.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Entities.Product",
+      "Name": "Product",
+      "Namespace": "Domain.Entities",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Entities/Product.cs",
+      "Metrics": {
+        "LOC": 13,
+        "NOM": 0,
+        "NOF": 10,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 3,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Domain:Domain.Entities.Seller",
+      "Name": "Seller",
+      "Namespace": "Domain.Entities",
+      "Project": "Domain",
+      "Service": "Shared",
+      "FilePath": "Domain/Entities/Seller.cs",
+      "Metrics": {
+        "LOC": 10,
+        "NOM": 0,
+        "NOF": 7,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.DTOs.AddressDTO",
+      "Name": "AddressDTO",
+      "Namespace": "Application.DTOs",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/DTOs/AddressDTO.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.DTOs.ImageDTO",
+      "Name": "ImageDTO",
+      "Namespace": "Application.DTOs",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/DTOs/ImageDTO.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.DTOs.OrderProductDTO",
+      "Name": "OrderProductDTO",
+      "Namespace": "Application.DTOs",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/DTOs/OrderProductDTO.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Exceptions.ApiException",
+      "Name": "ApiException",
+      "Namespace": "Application.Exceptions",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Exceptions/ApiException.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Commands.CreateCategory.CreateCategoryCommand",
+      "Name": "CreateCategoryCommand",
+      "Namespace": "Application.Features.Categories.Commands.CreateCategory",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Commands/CreateCategory/CreateCategoryCommand.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Commands.CreateCategory.CreateCategoryCommandHandler",
+      "Name": "CreateCategoryCommandHandler",
+      "Namespace": "Application.Features.Categories.Commands.CreateCategory",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Commands/CreateCategory/CreateCategoryCommand.cs",
+      "Metrics": {
+        "LOC": 19,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 4,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Commands.DeleteCategory.DeleteCategoryCommand",
+      "Name": "DeleteCategoryCommand",
+      "Namespace": "Application.Features.Categories.Commands.DeleteCategory",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Commands/DeleteCategory/DeleteCategoryCommand.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Commands.DeleteCategory.DeleteCategoryCommandHandler",
+      "Name": "DeleteCategoryCommandHandler",
+      "Namespace": "Application.Features.Categories.Commands.DeleteCategory",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Commands/DeleteCategory/DeleteCategoryCommand.cs",
+      "Metrics": {
+        "LOC": 41,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 10,
+        "CBO": 5,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Commands.UpdateCategory.UpdateCategoryCommand",
+      "Name": "UpdateCategoryCommand",
+      "Namespace": "Application.Features.Categories.Commands.UpdateCategory",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Commands/UpdateCategory/UpdateCategoryCommand.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Commands.UpdateCategory.UpdateCategoryCommandHandler",
+      "Name": "UpdateCategoryCommandHandler",
+      "Namespace": "Application.Features.Categories.Commands.UpdateCategory",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Commands/UpdateCategory/UpdateCategoryCommand.cs",
+      "Metrics": {
+        "LOC": 24,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetAllCategories.GetAllCategoriesParameter",
+      "Name": "GetAllCategoriesParameter",
+      "Namespace": "Application.Features.Categories.Queries.GetAllCategories",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetAllCategories/GetAllCategoriesParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetAllCategories.GetAllCategoriesQuery",
+      "Name": "GetAllCategoriesQuery",
+      "Namespace": "Application.Features.Categories.Queries.GetAllCategories",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetAllCategories/GetAllCategoriesQuery.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetAllCategories.GetAllCategoriesQueryHandler",
+      "Name": "GetAllCategoriesQueryHandler",
+      "Namespace": "Application.Features.Categories.Queries.GetAllCategories",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetAllCategories/GetAllCategoriesQuery.cs",
+      "Metrics": {
+        "LOC": 32,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 5,
+        "CBO": 5,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetAllCategories.GetAllCategoriesViewModel",
+      "Name": "GetAllCategoriesViewModel",
+      "Namespace": "Application.Features.Categories.Queries.GetAllCategories",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetAllCategories/GetAllCategoriesViewModel.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryById.GetCategoryByIdQuery",
+      "Name": "GetCategoryByIdQuery",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryById/GetCategoryByIdQuery.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryById.GetCategoryByIdQueryHandler",
+      "Name": "GetCategoryByIdQueryHandler",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryById/GetCategoryByIdQuery.cs",
+      "Metrics": {
+        "LOC": 25,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 5,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryById.GetCategoryByIdViewModel",
+      "Name": "GetCategoryByIdViewModel",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryById/GetCategoryByIdViewModel.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryProductsById.GetCategoryProductsByIdImageViewModel",
+      "Name": "GetCategoryProductsByIdImageViewModel",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryProductsById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryProductsById/GetCategoryProductsByIdImageViewModel.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryProductsById.GetCategoryProductsByIdParameter",
+      "Name": "GetCategoryProductsByIdParameter",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryProductsById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryProductsById/GetCategoryProductsByIdParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryProductsById.GetCategoryProductsByIdProductViewModel",
+      "Name": "GetCategoryProductsByIdProductViewModel",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryProductsById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryProductsById/GetCategoryProductsByIdProductViewModel.cs",
+      "Metrics": {
+        "LOC": 13,
+        "NOM": 0,
+        "NOF": 10,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryProductsById.GetCategoryProductsByIdQuery",
+      "Name": "GetCategoryProductsByIdQuery",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryProductsById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryProductsById/GetCategoryProductsByIdQuery.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryProductsById.GetCategoryProductsByIdQueryHandler",
+      "Name": "GetCategoryProductsByIdQueryHandler",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryProductsById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryProductsById/GetCategoryProductsByIdQuery.cs",
+      "Metrics": {
+        "LOC": 34,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 5,
+        "CBO": 5,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Categories.Queries.GetCategoryProductsById.GetCategoryProductsByIdViewModel",
+      "Name": "GetCategoryProductsByIdViewModel",
+      "Namespace": "Application.Features.Categories.Queries.GetCategoryProductsById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Categories/Queries/GetCategoryProductsById/GetCategoryProductsByIdViewModel.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.AddAddress.AddAddressCommand",
+      "Name": "AddAddressCommand",
+      "Namespace": "Application.Features.Customers.Commands.AddAddress",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/AddAddress/AddAddressCommand.cs",
+      "Metrics": {
+        "LOC": 11,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.AddAddress.AddAddressCommandHandler",
+      "Name": "AddAddressCommandHandler",
+      "Namespace": "Application.Features.Customers.Commands.AddAddress",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/AddAddress/AddAddressCommand.cs",
+      "Metrics": {
+        "LOC": 30,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.CreateCustomer.CreateCustomerCommand",
+      "Name": "CreateCustomerCommand",
+      "Namespace": "Application.Features.Customers.Commands.CreateCustomer",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/CreateCustomer/CreateCustomerCommand.cs",
+      "Metrics": {
+        "LOC": 21,
+        "NOM": 0,
+        "NOF": 6,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.CreateCustomer.CreateCustomerCommandHandler",
+      "Name": "CreateCustomerCommandHandler",
+      "Namespace": "Application.Features.Customers.Commands.CreateCustomer",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/CreateCustomer/CreateCustomerCommand.cs",
+      "Metrics": {
+        "LOC": 27,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 5,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.DeleteAddress.DeleteAddressCommand",
+      "Name": "DeleteAddressCommand",
+      "Namespace": "Application.Features.Customers.Commands.DeleteAddress",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/DeleteAddress/DeleteAddressCommand.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.DeleteAddress.DeleteAddressCommandHandler",
+      "Name": "DeleteAddressCommandHandler",
+      "Namespace": "Application.Features.Customers.Commands.DeleteAddress",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/DeleteAddress/DeleteAddressCommand.cs",
+      "Metrics": {
+        "LOC": 25,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.UpdateAddress.UpdateAddressCommand",
+      "Name": "UpdateAddressCommand",
+      "Namespace": "Application.Features.Customers.Commands.UpdateAddress",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/UpdateAddress/UpdateAddressCommand.cs",
+      "Metrics": {
+        "LOC": 13,
+        "NOM": 0,
+        "NOF": 5,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.UpdateAddress.UpdateAddressCommandHandler",
+      "Name": "UpdateAddressCommandHandler",
+      "Namespace": "Application.Features.Customers.Commands.UpdateAddress",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/UpdateAddress/UpdateAddressCommand.cs",
+      "Metrics": {
+        "LOC": 29,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.UpdateCustomer.UpdateCustomerCommand",
+      "Name": "UpdateCustomerCommand",
+      "Namespace": "Application.Features.Customers.Commands.UpdateCustomer",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/UpdateCustomer/UpdateCustomerCommand.cs",
+      "Metrics": {
+        "LOC": 13,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Commands.UpdateCustomer.UpdateCustomerCommandHandler",
+      "Name": "UpdateCustomerCommandHandler",
+      "Namespace": "Application.Features.Customers.Commands.UpdateCustomer",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Commands/UpdateCustomer/UpdateCustomerCommand.cs",
+      "Metrics": {
+        "LOC": 26,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Queries.GetAllCustomers.GetAllCustomersParameter",
+      "Name": "GetAllCustomersParameter",
+      "Namespace": "Application.Features.Customers.Queries.GetAllCustomers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Queries/GetAllCustomers/GetAllCustomersParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Queries.GetAllCustomers.GetAllCustomersQuery",
+      "Name": "GetAllCustomersQuery",
+      "Namespace": "Application.Features.Customers.Queries.GetAllCustomers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Queries/GetAllCustomers/GetAllCustomersQuery.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Queries.GetAllCustomers.GetAllCustomersQueryHandler",
+      "Name": "GetAllCustomersQueryHandler",
+      "Namespace": "Application.Features.Customers.Queries.GetAllCustomers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Queries/GetAllCustomers/GetAllCustomersQuery.cs",
+      "Metrics": {
+        "LOC": 28,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Queries.GetAllCustomers.GetAllCustomersViewModel",
+      "Name": "GetAllCustomersViewModel",
+      "Namespace": "Application.Features.Customers.Queries.GetAllCustomers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Queries/GetAllCustomers/GetAllCustomersViewModel.cs",
+      "Metrics": {
+        "LOC": 9,
+        "NOM": 0,
+        "NOF": 6,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Queries.GetCustomerByIdentityId.GetCustomerByIdentityIdQuery",
+      "Name": "GetCustomerByIdentityIdQuery",
+      "Namespace": "Application.Features.Customers.Queries.GetCustomerByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Queries/GetCustomerByIdentityId/GetCustomerByIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Queries.GetCustomerByIdentityId.GetCustomerByIdentityIdQueryHandler",
+      "Name": "GetCustomerByIdentityIdQueryHandler",
+      "Namespace": "Application.Features.Customers.Queries.GetCustomerByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Queries/GetCustomerByIdentityId/GetCustomerByIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 29,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 4,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Customers.Queries.GetCustomerByIdentityId.GetCustomerByIdentityIdViewModel",
+      "Name": "GetCustomerByIdentityIdViewModel",
+      "Namespace": "Application.Features.Customers.Queries.GetCustomerByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Customers/Queries/GetCustomerByIdentityId/GetCustomerByIdentityIdViewModel.cs",
+      "Metrics": {
+        "LOC": 10,
+        "NOM": 0,
+        "NOF": 7,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Orders.Commands.CreateOrder.CancelOrderCommand",
+      "Name": "CancelOrderCommand",
+      "Namespace": "Application.Features.Orders.Commands.CreateOrder",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Orders/Commands/CancelOrder/CancelOrderCommand.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Orders.Commands.CreateOrder.CancelOrderCommandHandler",
+      "Name": "CancelOrderCommandHandler",
+      "Namespace": "Application.Features.Orders.Commands.CreateOrder",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Orders/Commands/CancelOrder/CancelOrderCommand.cs",
+      "Metrics": {
+        "LOC": 36,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 6,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Orders.Commands.CreateOrder.CreateOrderCommand",
+      "Name": "CreateOrderCommand",
+      "Namespace": "Application.Features.Orders.Commands.CreateOrder",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Orders/Commands/CreateOrder/CreateOrderCommand.cs",
+      "Metrics": {
+        "LOC": 15,
+        "NOM": 0,
+        "NOF": 7,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Orders.Commands.CreateOrder.CreateOrderCommandHandler",
+      "Name": "CreateOrderCommandHandler",
+      "Namespace": "Application.Features.Orders.Commands.CreateOrder",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Orders/Commands/CreateOrder/CreateOrderCommand.cs",
+      "Metrics": {
+        "LOC": 165,
+        "NOM": 2,
+        "NOF": 7,
+        "WMC": 2,
+        "RFC": 15,
+        "CBO": 9,
+        "Cyclomatic": 23,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Commands.ActivateProduct.ActivateProductCommand",
+      "Name": "ActivateProductCommand",
+      "Namespace": "Application.Features.Products.Commands.ActivateProduct",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Commands/ActivateProduct/ActivateProductCommand.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Commands.ActivateProduct.DeleteProductCommandHandler",
+      "Name": "DeleteProductCommandHandler",
+      "Namespace": "Application.Features.Products.Commands.ActivateProduct",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Commands/ActivateProduct/ActivateProductCommand.cs",
+      "Metrics": {
+        "LOC": 24,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 3,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Commands.CreateProduct.CreateProductCommand",
+      "Name": "CreateProductCommand",
+      "Namespace": "Application.Features.Products.Commands.CreateProduct",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Commands/CreateProduct/CreateProductCommand.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 0,
+        "NOF": 8,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Commands.CreateProduct.CreateProductCommandHandler",
+      "Name": "CreateProductCommandHandler",
+      "Namespace": "Application.Features.Products.Commands.CreateProduct",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Commands/CreateProduct/CreateProductCommand.cs",
+      "Metrics": {
+        "LOC": 38,
+        "NOM": 1,
+        "NOF": 4,
+        "WMC": 1,
+        "RFC": 6,
+        "CBO": 8,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Commands.DeactivateProduct.DeactivateProductCommand",
+      "Name": "DeactivateProductCommand",
+      "Namespace": "Application.Features.Products.Commands.DeactivateProduct",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Commands/DeactivateProduct/DeactivateProductCommand.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Commands.DeactivateProduct.DeleteProductCommandHandler",
+      "Name": "DeleteProductCommandHandler",
+      "Namespace": "Application.Features.Products.Commands.DeactivateProduct",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Commands/DeactivateProduct/DeactivateProductCommand.cs",
+      "Metrics": {
+        "LOC": 24,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 3,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Commands.UpdateProduct.UpdateProductCommand",
+      "Name": "UpdateProductCommand",
+      "Namespace": "Application.Features.Products.Commands.UpdateProduct",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Commands/UpdateProduct/UpdateProductCommand.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 0,
+        "NOF": 8,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Commands.UpdateProduct.UpdateProductCommandHandler",
+      "Name": "UpdateProductCommandHandler",
+      "Namespace": "Application.Features.Products.Commands.UpdateProduct",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Commands/UpdateProduct/UpdateProductCommand.cs",
+      "Metrics": {
+        "LOC": 50,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 8,
+        "CBO": 6,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetAllProducts.GetAllProductsCategoryViewModel",
+      "Name": "GetAllProductsCategoryViewModel",
+      "Namespace": "Application.Features.Products.Queries.GetAllProducts",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetAllProducts/GetAllProductsCategoryViewModel.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetAllProducts.GetAllProductsImageViewModel",
+      "Name": "GetAllProductsImageViewModel",
+      "Namespace": "Application.Features.Products.Queries.GetAllProducts",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetAllProducts/GetAllProductsImageViewModel.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetAllProducts.GetAllProductsParameter",
+      "Name": "GetAllProductsParameter",
+      "Namespace": "Application.Features.Products.Queries.GetAllProducts",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetAllProducts/GetAllProductsParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetAllProducts.GetAllProductsQuery",
+      "Name": "GetAllProductsQuery",
+      "Namespace": "Application.Features.Products.Queries.GetAllProducts",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetAllProducts/GetAllProductsQuery.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetAllProducts.GetAllProductsQueryHandler",
+      "Name": "GetAllProductsQueryHandler",
+      "Namespace": "Application.Features.Products.Queries.GetAllProducts",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetAllProducts/GetAllProductsQuery.cs",
+      "Metrics": {
+        "LOC": 27,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetAllProducts.GetAllProductsViewModel",
+      "Name": "GetAllProductsViewModel",
+      "Namespace": "Application.Features.Products.Queries.GetAllProducts",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetAllProducts/GetAllProductsViewModel.cs",
+      "Metrics": {
+        "LOC": 14,
+        "NOM": 0,
+        "NOF": 11,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 2,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetProductById.GetProductByIdCategoryViewModel",
+      "Name": "GetProductByIdCategoryViewModel",
+      "Namespace": "Application.Features.Products.Queries.GetProductById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetProductById/GetProductByIdCategoryViewModel.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetProductById.GetProductByIdImageViewModel",
+      "Name": "GetProductByIdImageViewModel",
+      "Namespace": "Application.Features.Products.Queries.GetProductById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetProductById/GetProductByIdImageViewModel.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetProductById.GetProductByIdQuery",
+      "Name": "GetProductByIdQuery",
+      "Namespace": "Application.Features.Products.Queries.GetProductById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetProductById/GetProductByIdQuery.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetProductById.GetProductByIdQueryHandler",
+      "Name": "GetProductByIdQueryHandler",
+      "Namespace": "Application.Features.Products.Queries.GetProductById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetProductById/GetProductByIdQuery.cs",
+      "Metrics": {
+        "LOC": 20,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetProductById.GetProductByIdViewModel",
+      "Name": "GetProductByIdViewModel",
+      "Namespace": "Application.Features.Products.Queries.GetProductById",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetProductById/GetProductByIdViewModel.cs",
+      "Metrics": {
+        "LOC": 15,
+        "NOM": 0,
+        "NOF": 11,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 2,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetProductsBySearchFilter.GetProductsBySearchFilterParameter",
+      "Name": "GetProductsBySearchFilterParameter",
+      "Namespace": "Application.Features.Products.Queries.GetProductsBySearchFilter",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetProductsBySearchFilter/GetProductsBySearchFilterParameter.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetProductsBySearchFilter.GetProductsBySearchFilterQuery",
+      "Name": "GetProductsBySearchFilterQuery",
+      "Namespace": "Application.Features.Products.Queries.GetProductsBySearchFilter",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetProductsBySearchFilter/GetProductsBySearchFilterQuery.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Products.Queries.GetProductsBySearchFilter.GetProductsBySearchFilterQueryHandler",
+      "Name": "GetProductsBySearchFilterQueryHandler",
+      "Namespace": "Application.Features.Products.Queries.GetProductsBySearchFilter",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Products/Queries/GetProductsBySearchFilter/GetProductsBySearchFilterQuery.cs",
+      "Metrics": {
+        "LOC": 27,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Commands.CreateSeller.CreateSellerCommand",
+      "Name": "CreateSellerCommand",
+      "Namespace": "Application.Features.Sellers.Commands.CreateSeller",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Commands/CreateSeller/CreateSellerCommand.cs",
+      "Metrics": {
+        "LOC": 23,
+        "NOM": 0,
+        "NOF": 8,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Commands.CreateSeller.CreateSellerCommandHandler",
+      "Name": "CreateSellerCommandHandler",
+      "Namespace": "Application.Features.Sellers.Commands.CreateSeller",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Commands/CreateSeller/CreateSellerCommand.cs",
+      "Metrics": {
+        "LOC": 32,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 5,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Commands.UpdateSeller.UpdateSellerCommand",
+      "Name": "UpdateSellerCommand",
+      "Namespace": "Application.Features.Sellers.Commands.UpdateSeller",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Commands/UpdateSeller/UpdateSellerCommand.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 0,
+        "NOF": 6,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Commands.UpdateSeller.UpdateSellerCommandHandler",
+      "Name": "UpdateSellerCommandHandler",
+      "Namespace": "Application.Features.Sellers.Commands.UpdateSeller",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Commands/UpdateSeller/UpdateSellerCommand.cs",
+      "Metrics": {
+        "LOC": 34,
+        "NOM": 1,
+        "NOF": 4,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 6,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetAllSellers.GetAllSellersParameter",
+      "Name": "GetAllSellersParameter",
+      "Namespace": "Application.Features.Sellers.Queries.GetAllSellers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetAllSellers/GetAllSellersParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetAllSellers.GetAllSellersQuery",
+      "Name": "GetAllSellersQuery",
+      "Namespace": "Application.Features.Sellers.Queries.GetAllSellers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetAllSellers/GetAllSellersQuery.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetAllSellers.GetAllSellersQueryHandler",
+      "Name": "GetAllSellersQueryHandler",
+      "Namespace": "Application.Features.Sellers.Queries.GetAllSellers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetAllSellers/GetAllSellersQuery.cs",
+      "Metrics": {
+        "LOC": 28,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetAllSellers.GetAllSellersViewModel",
+      "Name": "GetAllSellersViewModel",
+      "Namespace": "Application.Features.Sellers.Queries.GetAllSellers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetAllSellers/GetAllSellersViewModel.cs",
+      "Metrics": {
+        "LOC": 13,
+        "NOM": 0,
+        "NOF": 7,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetSellerByIdentityId.GetSellerByIdentityIdQuery",
+      "Name": "GetSellerByIdentityIdQuery",
+      "Namespace": "Application.Features.Sellers.Queries.GetSellerByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetSellerByIdentityId/GetSellerByIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetSellerByIdentityId.GetSellerByIdentityIdQueryHandler",
+      "Name": "GetSellerByIdentityIdQueryHandler",
+      "Namespace": "Application.Features.Sellers.Queries.GetSellerByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetSellerByIdentityId/GetSellerByIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 29,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 4,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetSellerByIdentityId.GetSellerByIdentityIdViewModel",
+      "Name": "GetSellerByIdentityIdViewModel",
+      "Namespace": "Application.Features.Sellers.Queries.GetSellerByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetSellerByIdentityId/GetSellerByIdentityIdViewModel.cs",
+      "Metrics": {
+        "LOC": 11,
+        "NOM": 0,
+        "NOF": 8,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetSellerProductsByIdentityId.GetSellerProductsByIdentityIdParameter",
+      "Name": "GetSellerProductsByIdentityIdParameter",
+      "Namespace": "Application.Features.Sellers.Queries.GetSellerProductsByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetSellerProductsByIdentityId/GetSellerProductsByIdentityIdParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetSellerProductsByIdentityId.GetSellerProductsByIdentityIdQuery",
+      "Name": "GetSellerProductsByIdentityIdQuery",
+      "Namespace": "Application.Features.Sellers.Queries.GetSellerProductsByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetSellerProductsByIdentityId/GetSellerProductsByIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetSellerProductsByIdentityId.GetSellerProductsByIdentityIdQueryHandler",
+      "Name": "GetSellerProductsByIdentityIdQueryHandler",
+      "Namespace": "Application.Features.Sellers.Queries.GetSellerProductsByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetSellerProductsByIdentityId/GetSellerProductsByIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 34,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 5,
+        "CBO": 4,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.Sellers.Queries.GetSellerProductsByIdentityId.GetSellerProductsByIdentityIdViewModel",
+      "Name": "GetSellerProductsByIdentityIdViewModel",
+      "Namespace": "Application.Features.Sellers.Queries.GetSellerProductsByIdentityId",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/Sellers/Queries/GetSellerProductsByIdentityId/GetSellerProductsByIdentityIdViewModel.cs",
+      "Metrics": {
+        "LOC": 11,
+        "NOM": 0,
+        "NOF": 8,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.SharedViewModels.AddressViewModel",
+      "Name": "AddressViewModel",
+      "Namespace": "Application.Features.SharedViewModels",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/SharedViewModels/AddressViewModel.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.SharedViewModels.CategoryViewModel",
+      "Name": "CategoryViewModel",
+      "Namespace": "Application.Features.SharedViewModels",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/SharedViewModels/CategoryViewModel.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.SharedViewModels.ImageViewModel",
+      "Name": "ImageViewModel",
+      "Namespace": "Application.Features.SharedViewModels",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/SharedViewModels/ImageViewModel.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.SharedViewModels.ProductViewModel",
+      "Name": "ProductViewModel",
+      "Namespace": "Application.Features.SharedViewModels",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/SharedViewModels/ProductViewModel.cs",
+      "Metrics": {
+        "LOC": 14,
+        "NOM": 0,
+        "NOF": 11,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 2,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Features.SharedViewModels.SellerViewModel",
+      "Name": "SellerViewModel",
+      "Namespace": "Application.Features.SharedViewModels",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Features/SharedViewModels/SellerViewModel.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 0,
+        "NOF": 7,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Mappings.GeneralProfile",
+      "Name": "GeneralProfile",
+      "Namespace": "Application.Mappings",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Mappings/GeneralProfile.cs",
+      "Metrics": {
+        "LOC": 52,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Parameters.RequestParameter",
+      "Name": "RequestParameter",
+      "Namespace": "Application.Parameters",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Parameters/RequestParameter.cs",
+      "Metrics": {
+        "LOC": 15,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.ServiceExtensions",
+      "Name": "ServiceExtensions",
+      "Namespace": "Application",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/ServiceExtensions.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 7,
+        "CBO": 4,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Services.AuthService",
+      "Name": "AuthService",
+      "Namespace": "Application.Services",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Services/AuthService.cs",
+      "Metrics": {
+        "LOC": 56,
+        "NOM": 3,
+        "NOF": 1,
+        "WMC": 3,
+        "RFC": 5,
+        "CBO": 1,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Services.PaymentService",
+      "Name": "PaymentService",
+      "Namespace": "Application.Services",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Services/PaymentService.cs",
+      "Metrics": {
+        "LOC": 82,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 8,
+        "CBO": 2,
+        "Cyclomatic": 8,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Wrappers.PagedResponse",
+      "Name": "PagedResponse",
+      "Namespace": "Application.Wrappers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Wrappers/PagedResponse.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Application:Application.Wrappers.Response",
+      "Name": "Response",
+      "Namespace": "Application.Wrappers",
+      "Project": "Application",
+      "Service": "Shared",
+      "FilePath": "Application/Wrappers/Response.cs",
+      "Metrics": {
+        "LOC": 42,
+        "NOM": 1,
+        "NOF": 4,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 1,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Contexts.ApplicationDbContext",
+      "Name": "ApplicationDbContext",
+      "Namespace": "Infrastructure.Persistence.Contexts",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Contexts/ApplicationDbContext.cs",
+      "Metrics": {
+        "LOC": 42,
+        "NOM": 2,
+        "NOF": 5,
+        "WMC": 2,
+        "RFC": 8,
+        "CBO": 10,
+        "Cyclomatic": 7,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Migrations.Initial",
+      "Name": "Initial",
+      "Namespace": "Infrastructure.Persistence.Migrations",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Migrations/20220812063812_Initial.cs",
+      "Metrics": {
+        "LOC": 189,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 15,
+        "CBO": 9,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Migrations.Initial",
+      "Name": "Initial",
+      "Namespace": "Infrastructure.Persistence.Migrations",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Migrations/20220812063812_Initial.Designer.cs",
+      "Metrics": {
+        "LOC": 298,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 17,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Migrations.Update1",
+      "Name": "Update1",
+      "Namespace": "Infrastructure.Persistence.Migrations",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Migrations/20220816091348_Update1.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Migrations.Update1",
+      "Name": "Update1",
+      "Namespace": "Infrastructure.Persistence.Migrations",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Migrations/20220816091348_Update1.Designer.cs",
+      "Metrics": {
+        "LOC": 298,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 17,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Migrations.Update2",
+      "Name": "Update2",
+      "Namespace": "Infrastructure.Persistence.Migrations",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Migrations/20220816092322_Update2.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Migrations.Update2",
+      "Name": "Update2",
+      "Namespace": "Infrastructure.Persistence.Migrations",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Migrations/20220816092322_Update2.Designer.cs",
+      "Metrics": {
+        "LOC": 298,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 17,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Migrations.ApplicationDbContextModelSnapshot",
+      "Name": "ApplicationDbContextModelSnapshot",
+      "Namespace": "Infrastructure.Persistence.Migrations",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Migrations/ApplicationDbContextModelSnapshot.cs",
+      "Metrics": {
+        "LOC": 297,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 17,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Repositories.AddressRepositoryAsync",
+      "Name": "AddressRepositoryAsync",
+      "Namespace": "Infrastructure.Persistence.Repositories",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Repositories/AddressRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 9,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Repositories.BasketRepositoryAsync",
+      "Name": "BasketRepositoryAsync",
+      "Namespace": "Infrastructure.Persistence.Repositories",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Repositories/BasketRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 30,
+        "NOM": 3,
+        "NOF": 1,
+        "WMC": 3,
+        "RFC": 7,
+        "CBO": 3,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Repositories.CategoryRepositoryAsync",
+      "Name": "CategoryRepositoryAsync",
+      "Namespace": "Infrastructure.Persistence.Repositories",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Repositories/CategoryRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 25,
+        "NOM": 2,
+        "NOF": 1,
+        "WMC": 2,
+        "RFC": 3,
+        "CBO": 2,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Repositories.CustomerRepositoryAsync",
+      "Name": "CustomerRepositoryAsync",
+      "Namespace": "Infrastructure.Persistence.Repositories",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Repositories/CustomerRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 27,
+        "NOM": 2,
+        "NOF": 1,
+        "WMC": 2,
+        "RFC": 6,
+        "CBO": 2,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Repositories.GenericRepositoryAsync",
+      "Name": "GenericRepositoryAsync",
+      "Namespace": "Infrastructure.Persistence.Repositories",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Repositories/GenericRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 78,
+        "NOM": 11,
+        "NOF": 1,
+        "WMC": 11,
+        "RFC": 12,
+        "CBO": 5,
+        "Cyclomatic": 11,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Repositories.ProductRepositoryAsync",
+      "Name": "ProductRepositoryAsync",
+      "Namespace": "Infrastructure.Persistence.Repositories",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Repositories/ProductRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 133,
+        "NOM": 13,
+        "NOF": 2,
+        "WMC": 13,
+        "RFC": 16,
+        "CBO": 5,
+        "Cyclomatic": 15,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Repositories.SellerRepositoryAsync",
+      "Name": "SellerRepositoryAsync",
+      "Namespace": "Infrastructure.Persistence.Repositories",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Repositories/SellerRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 32,
+        "NOM": 2,
+        "NOF": 1,
+        "WMC": 2,
+        "RFC": 6,
+        "CBO": 2,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Seeds.DefaultCategories",
+      "Name": "DefaultCategories",
+      "Namespace": "Infrastructure.Persistence.Seeds",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Seeds/DefaultCategories.cs",
+      "Metrics": {
+        "LOC": 34,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 10,
+        "CBO": 2,
+        "Cyclomatic": 4,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Seeds.DefaultProducts",
+      "Name": "DefaultProducts",
+      "Namespace": "Infrastructure.Persistence.Seeds",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Seeds/DefaultProducts.cs",
+      "Metrics": {
+        "LOC": 44,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 17,
+        "CBO": 5,
+        "Cyclomatic": 4,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.Seeds.DefaultSellers",
+      "Name": "DefaultSellers",
+      "Namespace": "Infrastructure.Persistence.Seeds",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/Seeds/DefaultSellers.cs",
+      "Metrics": {
+        "LOC": 43,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 11,
+        "CBO": 3,
+        "Cyclomatic": 4,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Infrastructure.Persistence:Infrastructure.Persistence.ServiceRegistration",
+      "Name": "ServiceRegistration",
+      "Namespace": "Infrastructure.Persistence",
+      "Project": "Infrastructure.Persistence",
+      "Service": "Shared",
+      "FilePath": "Infrastructure.Persistence/ServiceRegistration.cs",
+      "Metrics": {
+        "LOC": 27,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 8,
+        "CBO": 7,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Contexts.IdentityContext",
+      "Name": "IdentityContext",
+      "Namespace": "AuthServer.Contexts",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Contexts/IdentityContext.cs",
+      "Metrics": {
+        "LOC": 45,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Controllers.AccountController",
+      "Name": "AccountController",
+      "Namespace": "AuthServer.Controllers",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Controllers/AccountController.cs",
+      "Metrics": {
+        "LOC": 34,
+        "NOM": 4,
+        "NOF": 1,
+        "WMC": 4,
+        "RFC": 5,
+        "CBO": 2,
+        "Cyclomatic": 4,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.DTOs.AuthenticationRequest",
+      "Name": "AuthenticationRequest",
+      "Namespace": "AuthServer.DTOs",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/DTOs/AuthenticationRequest.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.DTOs.AuthenticationResponse",
+      "Name": "AuthenticationResponse",
+      "Namespace": "AuthServer.DTOs",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/DTOs/AuthenticationResponse.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 0,
+        "NOF": 5,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.DTOs.ChangePasswordRequest",
+      "Name": "ChangePasswordRequest",
+      "Namespace": "AuthServer.DTOs",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/DTOs/ChangePasswordRequest.cs",
+      "Metrics": {
+        "LOC": 18,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.DTOs.ProfileInformation",
+      "Name": "ProfileInformation",
+      "Namespace": "AuthServer.DTOs",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/DTOs/ProfileInformation.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.DTOs.ProfileInformationRequest",
+      "Name": "ProfileInformationRequest",
+      "Namespace": "AuthServer.DTOs",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/DTOs/ProfileInformationRequest.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.DTOs.RegisterRequest",
+      "Name": "RegisterRequest",
+      "Namespace": "AuthServer.DTOs",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/DTOs/RegisterRequest.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Exceptions.ApiException",
+      "Name": "ApiException",
+      "Namespace": "AuthServer.Exceptions",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Exceptions/ApiException.cs",
+      "Metrics": {
+        "LOC": 11,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Extensions.ServiceExtensions",
+      "Name": "ServiceExtensions",
+      "Namespace": "AuthServer.Extensions",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Extensions/ServiceExtensions.cs",
+      "Metrics": {
+        "LOC": 75,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 12,
+        "CBO": 12,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Middlewares.ErrorHandlerMiddleware",
+      "Name": "ErrorHandlerMiddleware",
+      "Namespace": "AuthServer.Middlewares",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Middlewares/ErrorHandlerMiddleware.cs",
+      "Metrics": {
+        "LOC": 50,
+        "NOM": 1,
+        "NOF": 1,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Migrations.Initial",
+      "Name": "Initial",
+      "Namespace": "AuthServer.Migrations",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Migrations/20220805094358_Initial.cs",
+      "Metrics": {
+        "LOC": 241,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 18,
+        "CBO": 10,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Migrations.Initial",
+      "Name": "Initial",
+      "Namespace": "AuthServer.Migrations",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Migrations/20220805094358_Initial.Designer.cs",
+      "Metrics": {
+        "LOC": 263,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 21,
+        "CBO": 13,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Migrations.IdentityContextModelSnapshot",
+      "Name": "IdentityContextModelSnapshot",
+      "Namespace": "AuthServer.Migrations",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Migrations/IdentityContextModelSnapshot.cs",
+      "Metrics": {
+        "LOC": 262,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 21,
+        "CBO": 13,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Models.ApplicationUser",
+      "Name": "ApplicationUser",
+      "Namespace": "AuthServer.Models",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Models/ApplicationUser.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Seeds.DefaultAdmin",
+      "Name": "DefaultAdmin",
+      "Namespace": "AuthServer.Seeds",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Seeds/DefaultAdmin.cs",
+      "Metrics": {
+        "LOC": 24,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 5,
+        "CBO": 1,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Seeds.DefaultCustomer",
+      "Name": "DefaultCustomer",
+      "Namespace": "AuthServer.Seeds",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Seeds/DefaultCustomer.cs",
+      "Metrics": {
+        "LOC": 22,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 5,
+        "CBO": 1,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Seeds.DefaultRoles",
+      "Name": "DefaultRoles",
+      "Namespace": "AuthServer.Seeds",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Seeds/DefaultRoles.cs",
+      "Metrics": {
+        "LOC": 10,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 1,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Services.AccountService",
+      "Name": "AccountService",
+      "Namespace": "AuthServer.Services",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Services/AccountService.cs",
+      "Metrics": {
+        "LOC": 155,
+        "NOM": 5,
+        "NOF": 3,
+        "WMC": 5,
+        "RFC": 21,
+        "CBO": 4,
+        "Cyclomatic": 16,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Settings.JWTSettings",
+      "Name": "JWTSettings",
+      "Namespace": "AuthServer.Settings",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Settings/JWTSettings.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 0,
+        "NOF": 5,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "AuthServer:AuthServer.Wrappers.Response",
+      "Name": "Response",
+      "Namespace": "AuthServer.Wrappers",
+      "Project": "AuthServer",
+      "Service": "AuthServer",
+      "FilePath": "AuthServer/Wrappers/Response.cs",
+      "Metrics": {
+        "LOC": 42,
+        "NOM": 1,
+        "NOF": 4,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 1,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService:OrderService.Controllers.BaseApiController",
+      "Name": "BaseApiController",
+      "Namespace": "OrderService.Controllers",
+      "Project": "OrderService",
+      "Service": "OrderService",
+      "FilePath": "OrderService/OrderService/Controllers/BaseApiController.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService:OrderService.Controllers.v1.OrderController",
+      "Name": "OrderController",
+      "Namespace": "OrderService.Controllers.v1",
+      "Project": "OrderService",
+      "Service": "OrderService",
+      "FilePath": "OrderService/OrderService/Controllers/OrderController.cs",
+      "Metrics": {
+        "LOC": 31,
+        "NOM": 4,
+        "NOF": 0,
+        "WMC": 4,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 4,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService:OrderService.Extensions.EventSubscriptionsExtension",
+      "Name": "EventSubscriptionsExtension",
+      "Namespace": "OrderService.Extensions",
+      "Project": "OrderService",
+      "Service": "OrderService",
+      "FilePath": "OrderService/OrderService/Extensions/EventSubscriptionsExtension.cs",
+      "Metrics": {
+        "LOC": 11,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService:OrderService.Extensions.RPCSubscriptionsExtension",
+      "Name": "RPCSubscriptionsExtension",
+      "Namespace": "OrderService.Extensions",
+      "Project": "OrderService",
+      "Service": "OrderService",
+      "FilePath": "OrderService/OrderService/Extensions/RPCRegistrationsExtension.cs",
+      "Metrics": {
+        "LOC": 10,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService:OrderService.Middlewares.ErrorHandlerMiddleware",
+      "Name": "ErrorHandlerMiddleware",
+      "Namespace": "OrderService.Middlewares",
+      "Project": "OrderService",
+      "Service": "OrderService",
+      "FilePath": "OrderService/OrderService/Middlewares/ErrorHandlerMiddleware.cs",
+      "Metrics": {
+        "LOC": 51,
+        "NOM": 1,
+        "NOF": 1,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Domain:OrderService.Domain.Entities.Order",
+      "Name": "Order",
+      "Namespace": "OrderService.Domain.Entities",
+      "Project": "OrderService.Domain",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Domain/Entities/Order.cs",
+      "Metrics": {
+        "LOC": 21,
+        "NOM": 0,
+        "NOF": 18,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.EventHandlers.TestEventHandler",
+      "Name": "TestEventHandler",
+      "Namespace": "OrderService.Application.EventHandlers",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/EventHandlers/TestEventHandler.cs",
+      "Metrics": {
+        "LOC": 9,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 1,
+        "CBO": 0,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Exceptions.ApiException",
+      "Name": "ApiException",
+      "Namespace": "OrderService.Application.Exceptions",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Exceptions/ApiException.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.EventHandlers.CancelOrder.CancelOrderEventHandler",
+      "Name": "CancelOrderEventHandler",
+      "Namespace": "OrderService.Application.Features.Orders.EventHandlers.CancelOrder",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/EventHandlers/CancelOrder/CancelOrderEventHandler.cs",
+      "Metrics": {
+        "LOC": 19,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 3,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.EventHandlers.CreateOrder.CreateOrderEventHandler",
+      "Name": "CreateOrderEventHandler",
+      "Namespace": "OrderService.Application.Features.Orders.EventHandlers.CreateOrder",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/EventHandlers/CreateOrder/CreateOrderEventHandler.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 4,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.EventHandlers.OrderPaymentCompleted.OrderPaymentCompletedEventHandler",
+      "Name": "OrderPaymentCompletedEventHandler",
+      "Namespace": "OrderService.Application.Features.Orders.EventHandlers.OrderPaymentCompleted",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/EventHandlers/OrderPaymentCompleted/OrderPaymentCompletedEventHandler.cs",
+      "Metrics": {
+        "LOC": 23,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 3,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.DidCustomerBuyProductQuery.DidCustomerBuyProductQuery",
+      "Name": "DidCustomerBuyProductQuery",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.DidCustomerBuyProductQuery",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/DidCustomerBuyProduct/DidCustomerBuyProductQuery.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.DidCustomerBuyProductQuery.DidCustomerBuyProductQueryHandler",
+      "Name": "DidCustomerBuyProductQueryHandler",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.DidCustomerBuyProductQuery",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/DidCustomerBuyProduct/DidCustomerBuyProductQuery.cs",
+      "Metrics": {
+        "LOC": 18,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 1,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrdersByCustomerIdentityId.GetAllOrdersByCustomerIdentityIdParameter",
+      "Name": "GetAllOrdersByCustomerIdentityIdParameter",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrdersByCustomerIdentityId",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrdersByCustomerIdentityId/GetAllOrdersByCustomerIdentityIdParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrdersByCustomerIdentityId.GetAllOrdersByCustomerIdentityIdQuery",
+      "Name": "GetAllOrdersByCustomerIdentityIdQuery",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrdersByCustomerIdentityId",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrdersByCustomerIdentityId/GetAllOrdersByCustomerIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrdersByCustomerIdentityId.GetAllOrdersByCustomerIdentityIdQueryHandler",
+      "Name": "GetAllOrdersByCustomerIdentityIdQueryHandler",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrdersByCustomerIdentityId",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrdersByCustomerIdentityId/GetAllOrdersByCustomerIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 28,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrdersBySellerIdentityId.GetAllOrdersBySellerIdentityIdParameter",
+      "Name": "GetAllOrdersBySellerIdentityIdParameter",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrdersBySellerIdentityId",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrdersBySellerIdentityId/GetAllOrdersBySellerIdentityIdParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrdersBySellerIdentityId.GetAllOrdersBySellerIdentityIdQuery",
+      "Name": "GetAllOrdersBySellerIdentityIdQuery",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrdersBySellerIdentityId",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrdersBySellerIdentityId/GetAllOrdersBySellerIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrdersBySellerIdentityId.GetAllOrdersBySellerIdentityIdQueryHandler",
+      "Name": "GetAllOrdersBySellerIdentityIdQueryHandler",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrdersBySellerIdentityId",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrdersBySellerIdentityId/GetAllOrdersBySellerIdentityIdQuery.cs",
+      "Metrics": {
+        "LOC": 28,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrders.GetAllOrdersParameter",
+      "Name": "GetAllOrdersParameter",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrders",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrders/GetAllOrdersParameter.cs",
+      "Metrics": {
+        "LOC": 3,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrders.GetAllOrdersQuery",
+      "Name": "GetAllOrdersQuery",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrders",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrders/GetAllOrdersQuery.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.Queries.GetAllOrders.GetAllOrdersQueryHandler",
+      "Name": "GetAllOrdersQueryHandler",
+      "Namespace": "OrderService.Application.Features.Orders.Queries.GetAllOrders",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/Queries/GetAllOrders/GetAllOrdersQuery.cs",
+      "Metrics": {
+        "LOC": 28,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.Orders.RPCHandlers.GetOrdersByCheckoutSessionIdRPCHandler",
+      "Name": "GetOrdersByCheckoutSessionIdRPCHandler",
+      "Namespace": "OrderService.Application.Features.Orders.RPCHandlers",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/Orders/RPCHandlers/GetOrdersByCheckoutSessionIdRPCHandler.cs",
+      "Metrics": {
+        "LOC": 24,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.SharedViewModels.OrderProductViewModel",
+      "Name": "OrderProductViewModel",
+      "Namespace": "OrderService.Application.Features.SharedViewModels",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/SharedViewModels/OrderProductViewModel.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Features.SharedViewModels.OrderViewModel",
+      "Name": "OrderViewModel",
+      "Namespace": "OrderService.Application.Features.SharedViewModels",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Features/SharedViewModels/OrderViewModel.cs",
+      "Metrics": {
+        "LOC": 23,
+        "NOM": 0,
+        "NOF": 20,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Mappings.GeneralProfile",
+      "Name": "GeneralProfile",
+      "Namespace": "OrderService.Application.Mappings",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Mappings/GeneralProfile.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.ServiceExtensions",
+      "Name": "ServiceExtensions",
+      "Namespace": "OrderService.Application",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/ServiceExtensions.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Wrappers.PagedResponse",
+      "Name": "PagedResponse",
+      "Namespace": "OrderService.Application.Wrappers",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Wrappers/PagedResponse.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Application:OrderService.Application.Wrappers.Response",
+      "Name": "Response",
+      "Namespace": "OrderService.Application.Wrappers",
+      "Project": "OrderService.Application",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Application/Wrappers/Response.cs",
+      "Metrics": {
+        "LOC": 42,
+        "NOM": 1,
+        "NOF": 4,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 1,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Contexts.OrderDbContext",
+      "Name": "OrderDbContext",
+      "Namespace": "OrderService.Infrastructure.Persistence.Contexts",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Contexts/OrderDbContext.cs",
+      "Metrics": {
+        "LOC": 39,
+        "NOM": 2,
+        "NOF": 1,
+        "WMC": 2,
+        "RFC": 8,
+        "CBO": 6,
+        "Cyclomatic": 7,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Initial",
+      "Name": "Initial",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220812063459_Initial.cs",
+      "Metrics": {
+        "LOC": 67,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 8,
+        "CBO": 5,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Initial",
+      "Name": "Initial",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220812063459_Initial.Designer.cs",
+      "Metrics": {
+        "LOC": 121,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 15,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Update1",
+      "Name": "Update1",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220816091450_Update1.cs",
+      "Metrics": {
+        "LOC": 40,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 3,
+        "CBO": 1,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Update1",
+      "Name": "Update1",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220816091450_Update1.Designer.cs",
+      "Metrics": {
+        "LOC": 128,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 15,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Update2",
+      "Name": "Update2",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220816092338_Update2.cs",
+      "Metrics": {
+        "LOC": 30,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 2,
+        "CBO": 1,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Update2",
+      "Name": "Update2",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220816092338_Update2.Designer.cs",
+      "Metrics": {
+        "LOC": 136,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 15,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Update3",
+      "Name": "Update3",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220818122627_Update3.cs",
+      "Metrics": {
+        "LOC": 30,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 2,
+        "CBO": 1,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Update3",
+      "Name": "Update3",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220818122627_Update3.Designer.cs",
+      "Metrics": {
+        "LOC": 143,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 15,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Update4",
+      "Name": "Update4",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220823123613_Update4.cs",
+      "Metrics": {
+        "LOC": 37,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 3,
+        "CBO": 1,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.Update4",
+      "Name": "Update4",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/20220823123613_Update4.Designer.cs",
+      "Metrics": {
+        "LOC": 146,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 15,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Migrations.OrderDbContextModelSnapshot",
+      "Name": "OrderDbContextModelSnapshot",
+      "Namespace": "OrderService.Infrastructure.Persistence.Migrations",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Migrations/OrderDbContextModelSnapshot.cs",
+      "Metrics": {
+        "LOC": 145,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 15,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Repositories.GenericRepositoryAsync",
+      "Name": "GenericRepositoryAsync",
+      "Namespace": "OrderService.Infrastructure.Persistence.Repositories",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Repositories/GenericRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 78,
+        "NOM": 11,
+        "NOF": 1,
+        "WMC": 11,
+        "RFC": 12,
+        "CBO": 5,
+        "Cyclomatic": 11,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.Repositories.OrderRepositoryAsync",
+      "Name": "OrderRepositoryAsync",
+      "Namespace": "OrderService.Infrastructure.Persistence.Repositories",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/Repositories/OrderRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 114,
+        "NOM": 11,
+        "NOF": 2,
+        "WMC": 11,
+        "RFC": 14,
+        "CBO": 5,
+        "Cyclomatic": 11,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "OrderService.Infrastructure.Persistence:OrderService.Infrastructure.Persistence.ServiceRegistration",
+      "Name": "ServiceRegistration",
+      "Namespace": "OrderService.Infrastructure.Persistence",
+      "Project": "OrderService.Infrastructure.Persistence",
+      "Service": "OrderService",
+      "FilePath": "OrderService/Infrastructure.Persistence/ServiceRegistration.cs",
+      "Metrics": {
+        "LOC": 22,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 8,
+        "CBO": 7,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationEvents.CancelOrderEvent",
+      "Name": "CancelOrderEvent",
+      "Namespace": "Common.ApplicationEvents",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationEvents/CancelOrderEvent.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationEvents.CreateOrderEvent",
+      "Name": "CreateOrderEvent",
+      "Namespace": "Common.ApplicationEvents",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationEvents/CreateOrderEvent.cs",
+      "Metrics": {
+        "LOC": 21,
+        "NOM": 0,
+        "NOF": 18,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationEvents.DiscountCouponCreatedEvent",
+      "Name": "DiscountCouponCreatedEvent",
+      "Namespace": "Common.ApplicationEvents",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationEvents/DiscountCouponCreatedEvent.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationEvents.OrderPaymentCompletedEvent",
+      "Name": "OrderPaymentCompletedEvent",
+      "Namespace": "Common.ApplicationEvents",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationEvents/OrderPaymentCompletedEvent.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationEvents.TestEvent",
+      "Name": "TestEvent",
+      "Namespace": "Common.ApplicationEvents",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationEvents/TestEvent.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationNotifications.DiscountCouponCreatedNotification",
+      "Name": "DiscountCouponCreatedNotification",
+      "Namespace": "Common.ApplicationNotifications",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationNotifications/DiscountCouponCreatedNotification.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.CanUseCouponRPC",
+      "Name": "CanUseCouponRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/CanUseCouponRPC.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.CreateCouponRPC",
+      "Name": "CreateCouponRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/CreateCouponRPC.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.DeleteCouponRPC",
+      "Name": "DeleteCouponRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/DeleteCouponRPC.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.GetAllCouponsRPC",
+      "Name": "GetAllCouponsRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/GetAllCouponsRPC.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.GetOrdersByCheckoutSessionIdRPC",
+      "Name": "GetOrdersByCheckoutSessionIdRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/GetOrdersByCheckoutSessionIdRPC.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.GetUsableCouponsByCustomerIdentityIdRPC",
+      "Name": "GetUsableCouponsByCustomerIdentityIdRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/GetUsableCouponsByCustomerIdentityIdRPC.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.GetUsedCouponsByCustomerIdentityIdRPC",
+      "Name": "GetUsedCouponsByCustomerIdentityIdRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/GetUsedCouponsByCustomerIdentityIdRPC.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.TestRPC",
+      "Name": "TestRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/TestRPC.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.UpdateCouponRPC",
+      "Name": "UpdateCouponRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/UpdateCouponRPC.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.ApplicationRPCs.UseCouponRPC",
+      "Name": "UseCouponRPC",
+      "Namespace": "Common.ApplicationRPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/ApplicationRPCs/UseCouponRPC.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.Entities.AuditableBaseEntity",
+      "Name": "AuditableBaseEntity",
+      "Namespace": "Common.Entities",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/Entities/AuditableBaseEntity.cs",
+      "Metrics": {
+        "LOC": 6,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.Entities.OrderProduct",
+      "Name": "OrderProduct",
+      "Namespace": "Common.Entities",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/Entities/OrderProduct.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.EventBus.Events.Event",
+      "Name": "Event",
+      "Namespace": "Common.EventBus.Events",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/EventBus/Events/Event.cs",
+      "Metrics": {
+        "LOC": 9,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.EventBus.RabbitMQEventBus",
+      "Name": "RabbitMQEventBus",
+      "Namespace": "Common.EventBus",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/EventBus/RabbitMQEventBus.cs",
+      "Metrics": {
+        "LOC": 282,
+        "NOM": 8,
+        "NOF": 8,
+        "WMC": 8,
+        "RFC": 39,
+        "CBO": 9,
+        "Cyclomatic": 24,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.EventBus.RPCs.RPC",
+      "Name": "RPC",
+      "Namespace": "Common.EventBus.RPCs",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/EventBus/RPCs/RPC.cs",
+      "Metrics": {
+        "LOC": 9,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.Parameters.RequestParameter",
+      "Name": "RequestParameter",
+      "Namespace": "Common.Parameters",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/Parameters/RequestParameter.cs",
+      "Metrics": {
+        "LOC": 15,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.SharedViewModels.CouponViewModel",
+      "Name": "CouponViewModel",
+      "Namespace": "Common.SharedViewModels",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/SharedViewModels/CouponViewModel.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 0,
+        "NOF": 5,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.SharedViewModels.OrderProductViewModel",
+      "Name": "OrderProductViewModel",
+      "Namespace": "Common.SharedViewModels",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/SharedViewModels/OrderProductViewModel.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.SharedViewModels.OrderViewModel",
+      "Name": "OrderViewModel",
+      "Namespace": "Common.SharedViewModels",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/SharedViewModels/OrderViewModel.cs",
+      "Metrics": {
+        "LOC": 23,
+        "NOM": 0,
+        "NOF": 20,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.Wrappers.PagedResponse",
+      "Name": "PagedResponse",
+      "Namespace": "Common.Wrappers",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/Wrappers/PagedResponse.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "Common:Common.Wrappers.Response",
+      "Name": "Response",
+      "Namespace": "Common.Wrappers",
+      "Project": "Common",
+      "Service": "Shared",
+      "FilePath": "Common/Wrappers/Response.cs",
+      "Metrics": {
+        "LOC": 42,
+        "NOM": 1,
+        "NOF": 4,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 1,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "GlobalInfrastructure:GlobalInfrastructure.DependencyExtension",
+      "Name": "DependencyExtension",
+      "Namespace": "GlobalInfrastructure",
+      "Project": "GlobalInfrastructure",
+      "Service": "Shared",
+      "FilePath": "Infrastructure/DependencyExtension.cs",
+      "Metrics": {
+        "LOC": 37,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 3,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "ReviewService.Domain:ReviewService.Domain.Entities.Review",
+      "Name": "Review",
+      "Namespace": "ReviewService.Domain.Entities",
+      "Project": "ReviewService.Domain",
+      "Service": "ReviewService",
+      "FilePath": "ReviewService/Core/ReviewService.Domain/Entities/Review.cs",
+      "Metrics": {
+        "LOC": 21,
+        "NOM": 0,
+        "NOF": 8,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "ReviewService.Application:ReviewService.Application.DTO_s.ReviewDTO",
+      "Name": "ReviewDTO",
+      "Namespace": "ReviewService.Application.DTO_s",
+      "Project": "ReviewService.Application",
+      "Service": "ReviewService",
+      "FilePath": "ReviewService/Core/ReviewService.Application/DTO\u0027s/ReviewDTO.cs",
+      "Metrics": {
+        "LOC": 15,
+        "NOM": 0,
+        "NOF": 6,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "ReviewService.Infrastructure.Persistence:ReviewService.Infrastructure.Persistence.Models.ReviewDatabaseSettings",
+      "Name": "ReviewDatabaseSettings",
+      "Namespace": "ReviewService.Infrastructure.Persistence.Models",
+      "Project": "ReviewService.Infrastructure.Persistence",
+      "Service": "ReviewService",
+      "FilePath": "ReviewService/Infrastructure/ReviewService.Infrastructure.Persistence/Models/ReviewDatabaseSettings.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "ReviewService.Infrastructure.Persistence:ReviewService.Infrastructure.Persistence.ReviewServices",
+      "Name": "ReviewServices",
+      "Namespace": "ReviewService.Infrastructure.Persistence",
+      "Project": "ReviewService.Infrastructure.Persistence",
+      "Service": "ReviewService",
+      "FilePath": "ReviewService/Infrastructure/ReviewService.Infrastructure.Persistence/ReviewServices.cs",
+      "Metrics": {
+        "LOC": 35,
+        "NOM": 6,
+        "NOF": 1,
+        "WMC": 6,
+        "RFC": 7,
+        "CBO": 4,
+        "Cyclomatic": 7,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "ReviewService.Infrastructure.Persistence:ReviewService.Infrastructure.Persistence.ServiceRegistration",
+      "Name": "ServiceRegistration",
+      "Namespace": "ReviewService.Infrastructure.Persistence",
+      "Project": "ReviewService.Infrastructure.Persistence",
+      "Service": "ReviewService",
+      "FilePath": "ReviewService/Infrastructure/ReviewService.Infrastructure.Persistence/ServiceRegistration.cs",
+      "Metrics": {
+        "LOC": 9,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 1,
+        "CBO": 1,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "ReviewService:ReviewService.Controllers.ReviewController",
+      "Name": "ReviewController",
+      "Namespace": "ReviewService.Controllers",
+      "Project": "ReviewService",
+      "Service": "ReviewService",
+      "FilePath": "ReviewService/ReviewService/Controllers/ReviewController.cs",
+      "Metrics": {
+        "LOC": 82,
+        "NOM": 6,
+        "NOF": 1,
+        "WMC": 6,
+        "RFC": 8,
+        "CBO": 2,
+        "Cyclomatic": 9,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService:DiscountService.Controllers.BaseApiController",
+      "Name": "BaseApiController",
+      "Namespace": "DiscountService.Controllers",
+      "Project": "DiscountService",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService/Controllers/BaseApiController.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService:DiscountService.Controllers.v1.DiscountController",
+      "Name": "DiscountController",
+      "Namespace": "DiscountService.Controllers.v1",
+      "Project": "DiscountService",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService/Controllers/DiscountController.cs",
+      "Metrics": {
+        "LOC": 24,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService:DiscountService.Extensions.RPCSubscriptionsExtension",
+      "Name": "RPCSubscriptionsExtension",
+      "Namespace": "DiscountService.Extensions",
+      "Project": "DiscountService",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService/Extensions/RPCRegistrationsExtension.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService:DiscountService.Middlewares.ErrorHandlerMiddleware",
+      "Name": "ErrorHandlerMiddleware",
+      "Namespace": "DiscountService.Middlewares",
+      "Project": "DiscountService",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService/Middlewares/ErrorHandlerMiddleware.cs",
+      "Metrics": {
+        "LOC": 51,
+        "NOM": 1,
+        "NOF": 1,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Exceptions.ApiException",
+      "Name": "ApiException",
+      "Namespace": "DiscountService.Application.Exceptions",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Exceptions/ApiException.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Coupons.RPCHandlers.CanUseCouponRPCHandler",
+      "Name": "CanUseCouponRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Coupons.RPCHandlers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Coupons/RPCHandlers/CanUseCouponRPCHandler.cs",
+      "Metrics": {
+        "LOC": 53,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Coupons.RPCHandlers.CreateCouponRPCHandler",
+      "Name": "CreateCouponRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Coupons.RPCHandlers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Coupons/RPCHandlers/CreateCouponRPCHandler.cs",
+      "Metrics": {
+        "LOC": 35,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 5,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Coupons.RPCHandlers.DeleteCouponRPCHandler",
+      "Name": "DeleteCouponRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Coupons.RPCHandlers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Coupons/RPCHandlers/DeleteCouponRPCHandler.cs",
+      "Metrics": {
+        "LOC": 27,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Coupons.RPCHandlers.GetAllCouponsRPCHandler",
+      "Name": "GetAllCouponsRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Coupons.RPCHandlers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Coupons/RPCHandlers/GetAllCouponsRPCHandler.cs",
+      "Metrics": {
+        "LOC": 25,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Coupons.RPCHandlers.GetUsableCouponsByCustomerIdentityIdRPCHandler",
+      "Name": "GetUsableCouponsByCustomerIdentityIdRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Coupons.RPCHandlers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Coupons/RPCHandlers/GetUsableCouponsByCustomerIdentityIdRPCHandler.cs",
+      "Metrics": {
+        "LOC": 27,
+        "NOM": 1,
+        "NOF": 3,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Coupons.RPCHandlers.GetUsedCouponsByCustomerIdentityIdRPCHandler",
+      "Name": "GetUsedCouponsByCustomerIdentityIdRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Coupons.RPCHandlers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Coupons/RPCHandlers/GetUsedCouponsByCustomerIdentityIdRPCHandler.cs",
+      "Metrics": {
+        "LOC": 25,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Coupons.RPCHandlers.UpdateCouponRPCHandler",
+      "Name": "UpdateCouponRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Coupons.RPCHandlers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Coupons/RPCHandlers/UpdateCouponRPCHandler.cs",
+      "Metrics": {
+        "LOC": 31,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 3,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Coupons.RPCHandlers.UseCouponRPCHandler",
+      "Name": "UseCouponRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Coupons.RPCHandlers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Coupons/RPCHandlers/UseCouponRPCHandler.cs",
+      "Metrics": {
+        "LOC": 56,
+        "NOM": 1,
+        "NOF": 2,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.SharedViewModels.CouponViewModel",
+      "Name": "CouponViewModel",
+      "Namespace": "DiscountService.Application.Features.SharedViewModels",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/SharedViewModels/CouponViewModel.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 0,
+        "NOF": 5,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Features.Test.TestRPCHandler",
+      "Name": "TestRPCHandler",
+      "Namespace": "DiscountService.Application.Features.Test",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Features/Test/TestRPCHandler.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 1,
+        "CBO": 0,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Mappings.GeneralProfile",
+      "Name": "GeneralProfile",
+      "Namespace": "DiscountService.Application.Mappings",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Mappings/GeneralProfile.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.ServiceExtensions",
+      "Name": "ServiceExtensions",
+      "Namespace": "DiscountService.Application",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/ServiceExtensions.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Wrappers.PagedResponse",
+      "Name": "PagedResponse",
+      "Namespace": "DiscountService.Application.Wrappers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Wrappers/PagedResponse.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 0,
+        "NOF": 3,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Application:DiscountService.Application.Wrappers.Response",
+      "Name": "Response",
+      "Namespace": "DiscountService.Application.Wrappers",
+      "Project": "DiscountService.Application",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Application/Wrappers/Response.cs",
+      "Metrics": {
+        "LOC": 42,
+        "NOM": 1,
+        "NOF": 4,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 1,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Domain:DiscountService.Domain.Entities.Coupon",
+      "Name": "Coupon",
+      "Namespace": "DiscountService.Domain.Entities",
+      "Project": "DiscountService.Domain",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Domain/Entities/Coupon.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 4,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Domain:DiscountService.Domain.Entities.UsedCoupon",
+      "Name": "UsedCoupon",
+      "Namespace": "DiscountService.Domain.Entities",
+      "Project": "DiscountService.Domain",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Domain/Entities/UsedCoupon.cs",
+      "Metrics": {
+        "LOC": 5,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Infrastructure.Persistence:DiscountService.Infrastructure.Persistence.Contexts.DiscountDbContext",
+      "Name": "DiscountDbContext",
+      "Namespace": "DiscountService.Infrastructure.Persistence.Contexts",
+      "Project": "DiscountService.Infrastructure.Persistence",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Infrastructure.Persistence/Contexts/DiscountDbContext.cs",
+      "Metrics": {
+        "LOC": 40,
+        "NOM": 2,
+        "NOF": 2,
+        "WMC": 2,
+        "RFC": 8,
+        "CBO": 7,
+        "Cyclomatic": 7,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Infrastructure.Persistence:DiscountService.Infrastructure.Persistence.Migrations.Initial",
+      "Name": "Initial",
+      "Namespace": "DiscountService.Infrastructure.Persistence.Migrations",
+      "Project": "DiscountService.Infrastructure.Persistence",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Infrastructure.Persistence/Migrations/20220818143611_Initial.cs",
+      "Metrics": {
+        "LOC": 59,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 8,
+        "CBO": 5,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Infrastructure.Persistence:DiscountService.Infrastructure.Persistence.Migrations.Initial",
+      "Name": "Initial",
+      "Namespace": "DiscountService.Infrastructure.Persistence.Migrations",
+      "Project": "DiscountService.Infrastructure.Persistence",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Infrastructure.Persistence/Migrations/20220818143611_Initial.Designer.cs",
+      "Metrics": {
+        "LOC": 86,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 17,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Infrastructure.Persistence:DiscountService.Infrastructure.Persistence.Migrations.DiscountDbContextModelSnapshot",
+      "Name": "DiscountDbContextModelSnapshot",
+      "Namespace": "DiscountService.Infrastructure.Persistence.Migrations",
+      "Project": "DiscountService.Infrastructure.Persistence",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Infrastructure.Persistence/Migrations/DiscountDbContextModelSnapshot.cs",
+      "Metrics": {
+        "LOC": 85,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 17,
+        "CBO": 10,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Infrastructure.Persistence:DiscountService.Infrastructure.Persistence.Repositories.CouponRepositoryAsync",
+      "Name": "CouponRepositoryAsync",
+      "Namespace": "DiscountService.Infrastructure.Persistence.Repositories",
+      "Project": "DiscountService.Infrastructure.Persistence",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Infrastructure.Persistence/Repositories/CouponRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 38,
+        "NOM": 3,
+        "NOF": 1,
+        "WMC": 3,
+        "RFC": 8,
+        "CBO": 2,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Infrastructure.Persistence:DiscountService.Infrastructure.Persistence.Repositories.GenericRepositoryAsync",
+      "Name": "GenericRepositoryAsync",
+      "Namespace": "DiscountService.Infrastructure.Persistence.Repositories",
+      "Project": "DiscountService.Infrastructure.Persistence",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Infrastructure.Persistence/Repositories/GenericRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 78,
+        "NOM": 11,
+        "NOF": 1,
+        "WMC": 11,
+        "RFC": 12,
+        "CBO": 5,
+        "Cyclomatic": 11,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Infrastructure.Persistence:DiscountService.Infrastructure.Persistence.Repositories.UsedCouponRepositoryAsync",
+      "Name": "UsedCouponRepositoryAsync",
+      "Namespace": "DiscountService.Infrastructure.Persistence.Repositories",
+      "Project": "DiscountService.Infrastructure.Persistence",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Infrastructure.Persistence/Repositories/UsedCouponRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 44,
+        "NOM": 4,
+        "NOF": 1,
+        "WMC": 4,
+        "RFC": 10,
+        "CBO": 2,
+        "Cyclomatic": 5,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "DiscountService.Infrastructure.Persistence:DiscountService.Infrastructure.Persistence.ServiceRegistration",
+      "Name": "ServiceRegistration",
+      "Namespace": "DiscountService.Infrastructure.Persistence",
+      "Project": "DiscountService.Infrastructure.Persistence",
+      "Service": "DiscountService",
+      "FilePath": "DiscountService/DiscountService.Infrastructure.Persistence/ServiceRegistration.cs",
+      "Metrics": {
+        "LOC": 22,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 8,
+        "CBO": 7,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService:NotificationService.Controllers.BaseApiController",
+      "Name": "BaseApiController",
+      "Namespace": "NotificationService.Controllers",
+      "Project": "NotificationService",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService/Controllers/BaseApiController.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 2,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 1,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService:NotificationService.Controllers.v1.NotificationController",
+      "Name": "NotificationController",
+      "Namespace": "NotificationService.Controllers.v1",
+      "Project": "NotificationService",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService/Controllers/NotificationController.cs",
+      "Metrics": {
+        "LOC": 24,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService:NotificationService.Extensions.EventSubscriptionsExtension",
+      "Name": "EventSubscriptionsExtension",
+      "Namespace": "NotificationService.Extensions",
+      "Project": "NotificationService",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService/Extensions/EventSubscriptionsExtension.cs",
+      "Metrics": {
+        "LOC": 9,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 2,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService:NotificationService.Middlewares.ErrorHandlerMiddleware",
+      "Name": "ErrorHandlerMiddleware",
+      "Namespace": "NotificationService.Middlewares",
+      "Project": "NotificationService",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService/Middlewares/ErrorHandlerMiddleware.cs",
+      "Metrics": {
+        "LOC": 51,
+        "NOM": 1,
+        "NOF": 1,
+        "WMC": 1,
+        "RFC": 4,
+        "CBO": 4,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Infrastructure.Persistence:NotificationService.Infrastructure.Persistence.Contexts.NotificationDbContext",
+      "Name": "NotificationDbContext",
+      "Namespace": "NotificationService.Infrastructure.Persistence.Contexts",
+      "Project": "NotificationService.Infrastructure.Persistence",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Infrastructure.Persistence/Contexts/NotificationDbContext.cs",
+      "Metrics": {
+        "LOC": 37,
+        "NOM": 2,
+        "NOF": 0,
+        "WMC": 2,
+        "RFC": 8,
+        "CBO": 5,
+        "Cyclomatic": 7,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Infrastructure.Persistence:NotificationService.Infrastructure.Persistence.Repositories.GenericRepositoryAsync",
+      "Name": "GenericRepositoryAsync",
+      "Namespace": "NotificationService.Infrastructure.Persistence.Repositories",
+      "Project": "NotificationService.Infrastructure.Persistence",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Infrastructure.Persistence/Repositories/GenericRepositoryAsync.cs",
+      "Metrics": {
+        "LOC": 78,
+        "NOM": 11,
+        "NOF": 1,
+        "WMC": 11,
+        "RFC": 12,
+        "CBO": 5,
+        "Cyclomatic": 11,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Infrastructure.Persistence:NotificationService.Infrastructure.Persistence.ServiceRegistration",
+      "Name": "ServiceRegistration",
+      "Namespace": "NotificationService.Infrastructure.Persistence",
+      "Project": "NotificationService.Infrastructure.Persistence",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Infrastructure.Persistence/ServiceRegistration.cs",
+      "Metrics": {
+        "LOC": 21,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 8,
+        "CBO": 7,
+        "Cyclomatic": 2,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Application:NotificationService.Application.Exceptions.ApiException",
+      "Name": "ApiException",
+      "Namespace": "NotificationService.Application.Exceptions",
+      "Project": "NotificationService.Application",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Application/Exceptions/ApiException.cs",
+      "Metrics": {
+        "LOC": 12,
+        "NOM": 0,
+        "NOF": 1,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Application:NotificationService.Application.Features.DiscountCouponNotifications.DiscountCouponCreatedEventHandler",
+      "Name": "DiscountCouponCreatedEventHandler",
+      "Namespace": "NotificationService.Application.Features.DiscountCouponNotifications",
+      "Project": "NotificationService.Application",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Application/Features/DiscountCouponNotifications/DiscountCouponCreatedEventHandler.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 1,
+        "NOF": 1,
+        "WMC": 1,
+        "RFC": 1,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Application:NotificationService.Application.Hubs.DiscountHub",
+      "Name": "DiscountHub",
+      "Namespace": "NotificationService.Application.Hubs",
+      "Project": "NotificationService.Application",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Application/Hubs/DiscountHub.cs",
+      "Metrics": {
+        "LOC": 17,
+        "NOM": 3,
+        "NOF": 0,
+        "WMC": 3,
+        "RFC": 3,
+        "CBO": 2,
+        "Cyclomatic": 3,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Application:NotificationService.Application.Mappings.GeneralProfile",
+      "Name": "GeneralProfile",
+      "Namespace": "NotificationService.Application.Mappings",
+      "Project": "NotificationService.Application",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Application/Mappings/GeneralProfile.cs",
+      "Metrics": {
+        "LOC": 7,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Application:NotificationService.Application.ServiceExtensions",
+      "Name": "ServiceExtensions",
+      "Namespace": "NotificationService.Application",
+      "Project": "NotificationService.Application",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Application/ServiceExtensions.cs",
+      "Metrics": {
+        "LOC": 8,
+        "NOM": 1,
+        "NOF": 0,
+        "WMC": 1,
+        "RFC": 3,
+        "CBO": 2,
+        "Cyclomatic": 1,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    },
+    {
+      "Id": "NotificationService.Domain:NotificationService.Domain.Entities.Notification",
+      "Name": "Notification",
+      "Namespace": "NotificationService.Domain.Entities",
+      "Project": "NotificationService.Domain",
+      "Service": "NotificationService",
+      "FilePath": "NotificationService/NotificationService.Domain/Entities/Notification.cs",
+      "Metrics": {
+        "LOC": 4,
+        "NOM": 0,
+        "NOF": 0,
+        "WMC": 0,
+        "RFC": 0,
+        "CBO": 0,
+        "Cyclomatic": 0,
+        "LayerViolations": 0,
+        "CycleInvolvement": 0
+      }
+    }
+  ]
+}
