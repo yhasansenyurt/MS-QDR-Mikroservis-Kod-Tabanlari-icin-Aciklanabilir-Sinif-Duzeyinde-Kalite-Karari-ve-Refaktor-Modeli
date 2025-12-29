@@ -1,0 +1,47 @@
+<app-header></app-header>
+<ngb-carousel>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img src="https://picsum.photos/500/200" alt="Angular Carousel 1" />
+    </div>
+    <div class="carousel-caption">
+      <h3>Title Goes Here</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img src="https://picsum.photos/500/200" alt="Angular Carousel 2" />
+    </div>
+    <div class="carousel-caption">
+      <h3>Title Goes Here</h3>
+      <p>Consectetur tortor volutpat pretium.</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+<div class="container">
+  <h3>Dikkat çeken ürünler</h3>
+  <div class="row justify-content-center">
+    <div
+      class="col-4 col-lg-2 col-md-3 col-sm-4 m-3 mb-5"
+      *ngFor="let product of products"
+    >
+      <a [routerLink]="['/product', product.id]" class="nav-link card h-100">
+        <img
+          class="card-img-top h-75"
+          [src]="getImageUrl(product)"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <!-- <p class="card-text overflow-hidden" style="height: 50px">{{product.description}}</p> -->
+          <p>{{ product.category.name }}</p>
+          <ngb-rating [rate]="3"></ngb-rating>
+          <div class="text-end">
+            {{ product.price | currency: "TRY":"symbol" }}
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

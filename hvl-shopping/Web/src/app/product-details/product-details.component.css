@@ -1,0 +1,29 @@
+button.nav-link{
+    background-color: white;
+    color: black;
+    border: 3px solid antiquewhite;
+    margin-right:2rem;
+    padding-left:3rem;
+    padding-right:3rem;
+}
+.active {
+    background-color: antiquewhite;
+    color: black;
+    border: 3px solid antiquewhite;
+    margin-right:2rem;
+    padding-left:3rem;
+    padding-right:3rem;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.rating-color{
+    color:#fbc634 !important;
+}
+
+.rating-count{
+    font-weight: 300;
+}

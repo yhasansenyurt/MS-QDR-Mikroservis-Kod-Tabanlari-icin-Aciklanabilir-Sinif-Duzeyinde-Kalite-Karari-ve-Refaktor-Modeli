@@ -1,0 +1,250 @@
+<div *ngIf="getBasketItemsLength() === 0">
+  <div class="container mt-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-2">
+        <div class="mx-auto">
+          <h4>Sepetiniz boş.</h4>
+          <a
+            routerLink="/"
+            class="btn btn-outline-primary ms-4 mt-2 btn-block me-0"
+          >
+            Ana Sayfa
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="basket$ | async as basket">
+  <div class="pb-5" *ngIf="getBasketItemsLength() > 0">
+    <div class="container">
+      <div class="row">
+        <!--Basket listling-->
+        <div class="col-12 py-5 mb-1">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="border-0 bg-light" scope="col">
+                    <div class="p-2 px-3 text-uppercase">Ürünler</div>
+                  </th>
+                  <th scope="col" class="border-0 bg-light">
+                    <div class="py-2 text-uppercase">Ücret</div>
+                  </th>
+                  <th scope="col" class="border-0 bg-light">
+                    <div class="py-2 text-uppercase">Adet Sayısı</div>
+                  </th>
+                  <th scope="col" class="border-0 bg-light">
+                    <div class="py-2 text-uppercase">Toplam Fiyat</div>
+                  </th>
+                  <th scope="col" class="border-0 bg-light">
+                    <div class="py-2 text-uppercase">Kaldır</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of basket.items">
+                  <th scope="row">
+                    <!--Product image and category-->
+                    <div class="p-2">
+                      <img
+                        class="img-fluid"
+                        style="max-height: 50px"
+                        [src]="getImageUrl(item.pictureUrl)"
+                        alt="{{ item.productName }}"
+                      />
+                      <div class="ml-3 d-inline-block align-middle ms-3">
+                        <h5 class="mb-0">
+                          <a
+                            class="text-dark"
+                            routerLink="/product/{{ item.id }}"
+                            >{{ item.productName }}</a
+                          >
+                        </h5>
+                        <span
+                          class="text-muted font-weight-normal font-italic d-block"
+                          >{{ item.categoryName }}</span
+                        >
+                      </div>
+                    </div>
+                  </th>
+                  <td class="align-middle">
+                    <!--Product price-->
+                    <strong>{{ item.price | currency: "TRY":"symbol" }}</strong>
+                  </td>
+                  <td class="align-middle">
+                    <!--Product quantity-->
+                    <div class="d-flex align-items-center">
+                      <i
+                        (click)="decrementQuantity(item)"
+                        class="fa fa-minus-circle text-warning me-2"
+                        style="cursor: pointer; font-size: 2em"
+                      ></i>
+                      <span class="font-weight-bold" style="font-size: 1.5em">{{
+                        item.quantity
+                      }}</span>
+                      <i
+                        (click)="incrementQuantity(item)"
+                        class="fa fa-plus-circle text-warning mx-2"
+                        style="cursor: pointer; font-size: 2em"
+                      ></i>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <!--Product total-->
+                    <strong>
+                      {{
+                        item.price * item.quantity | currency: "TRY":"symbol"
+                      }}
+                    </strong>
+                  </td>
+                  <td class="align-middle text-center">
+                    <!--Product remove icon-->
+                    <a class="text-danger">
+                      <i
+                        (click)="removeBasketItem(item)"
+                        class="fa fa-trash"
+                        style="font-size: 2em; cursor: pointer"
+                      ></i>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="bg-light px-4 py-3 text-uppercase font-weight-bold">
+            Teslimat Adresi
+          </div>
+          <div class="overflow-auto address-selector py-2">
+            <div
+              class="btn card address-btn d-block mt-2 mx-2"
+              *ngFor="let address of addresses"
+              [ngClass]="{
+                'address-selected': address.id === selectedAddress.id
+              }"
+              (click)="OnAddressClicked(address)"
+            >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <div class="d-flex justify-content-between">
+                    <p>{{ address.title }}</p>
+                  </div>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  {{ address.city }}
+                </h6>
+                <p class="card-text">
+                  {{ address.addressDescription }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-between">
+          <div
+            class="bg-light px-4 py-3 text-uppercase font-weight-bold d-flex justify-content-between"
+          >
+            <span>Sipariş Özeti</span>
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              (click)="openModal(selectCouponModal)"
+            >
+              Kuponlarım
+            </button>
+          </div>
+          <div class="p-4">
+            <ul
+              class="list-unstyled mb-4"
+              *ngIf="basketTotal$ | async as totals"
+            >
+              <li class="d-flex justify-content-between py-3 border-bottom">
+                <strong class="text-muted">Ürünlerin Toplam Ücreti</strong>
+                <strong>{{
+                  totals.subtotal | currency: "TRY":"symbol"
+                }}</strong>
+              </li>
+              <li class="d-flex justify-content-between py-3 border-bottom">
+                <strong class="text-muted">Kargo ve İşlem Ücreti</strong>
+                <strong>{{
+                  totals.shipping | currency: "TRY":"symbol"
+                }}</strong>
+              </li>
+              <li
+                class="d-flex justify-content-between py-3 border-bottom"
+                *ngIf="selectedCoupon"
+              >
+                <strong class="text-muted"
+                  >Kupon ({{ selectedCoupon.code }})</strong
+                >
+                <strong>{{
+                  -selectedCoupon.amount | currency: "TRY":"symbol"
+                }}</strong>
+              </li>
+              <li class="d-flex justify-content-between py-3 border-bottom">
+                <strong class="text-muted">Toplam</strong>
+                <strong>{{
+                  totals.total - (selectedCoupon ? selectedCoupon.amount : 0)
+                    | currency: "TRY":"symbol"
+                }}</strong>
+              </li>
+            </ul>
+          </div>
+
+          <button
+            (click)="OnCheckout()"
+            class="btn btn-success w-100 py-3"
+            [disabled]="payButtonClicked"
+            (click)="payButtonClicked = true"
+          >
+            Ödeme Yap
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #selectCouponModal let-modal>
+  <div class="modal-header">
+    <h1 class="modal-title" id="modal-basic-title">Kupon Seç</h1>
+    <button
+      type="button"
+      class="btn-close"
+      aria-label="Close"
+      (click)="modal.dismiss('Cross click')"
+    ></button>
+  </div>
+  <div class="modal-body">
+    <div class="coupon-selector overflow-auto">
+      <div
+        class="btn card coupon-btn mx-2 mt-2"
+        *ngFor="let coupon of coupons"
+        (click)="OnCouponClicked(coupon)"
+        [ngClass]="{
+          'coupon-selected': coupon.id === selectedCoupon?.id
+        }"
+      >
+        <div class="row">
+          <div class="col-4">
+            <h6>Kod</h6>
+            <p>{{ coupon.code }}</p>
+          </div>
+          <div class="col-4">
+            <h6>Miktar</h6>
+            <p>{{ coupon.amount | currency: "TRY":"symbol" }}</p>
+          </div>
+          <div class="col-4">
+            <h6>Son Tarih</h6>
+            <p>{{ coupon.expireDate | date: "short" }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>

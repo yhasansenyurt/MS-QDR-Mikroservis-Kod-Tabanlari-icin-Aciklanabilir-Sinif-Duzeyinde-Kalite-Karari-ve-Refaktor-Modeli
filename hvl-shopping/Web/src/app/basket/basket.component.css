@@ -1,0 +1,15 @@
+.address-selector {
+  max-height: 350px;
+}
+
+.coupon-selector {
+  height: 70vh;
+}
+
+.address-btn {
+  text-align: start;
+}
+
+.address-selected, .coupon-selected {
+  outline: 4px solid green;
+}

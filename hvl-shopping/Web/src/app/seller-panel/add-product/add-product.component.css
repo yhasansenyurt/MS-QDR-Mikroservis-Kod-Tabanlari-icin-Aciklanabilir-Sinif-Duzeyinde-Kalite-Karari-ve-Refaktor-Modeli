@@ -1,0 +1,16 @@
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-group textarea{
+    height: 80px;
+}
+
+.close{
+    border: none;
+    background-color: transparent;
+}
+
+.error-message{
+    margin-bottom: 20px;
+}

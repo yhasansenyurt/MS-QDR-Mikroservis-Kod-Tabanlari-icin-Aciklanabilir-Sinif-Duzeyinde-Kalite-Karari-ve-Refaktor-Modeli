@@ -1,0 +1,194 @@
+<div class="container">
+  <div class="row" style="margin-top: 20px">
+    <div class="container mt-2">
+      <div *ngIf="this.dataCount == 0" class="mt-5">
+        <p class="text-lg-center text-primary" style="font-size: 24px">
+          Henüz bir siparişiniz bulunmamaktadır.
+        </p>
+      </div>
+
+      <h3 *ngIf="this.dataCount > 0" class="d-flex justify-content-center mt-3">
+        Siparişler
+      </h3>
+      <div class="mx-auto" *ngFor="let order of orders">
+        <div class="card border-0 shadow rounded-3 mt-3">
+          <div class="card-body p-4">
+            <div class="row">
+              <div class="col d-xxl-inline-block">
+                <h1 class="d-inline card-title fs-4">Sipariş Tarihi</h1>
+                <p>
+                  {{ order.created | date: "mediumDate" }}
+                </p>
+              </div>
+
+              <div class="col d-inline-block">
+                <h1 class="d-inline card-title fs-4">Alıcı</h1>
+                <p>
+                  {{ order.customerFirstName }} {{ order.customerLastName }}
+                </p>
+              </div>
+              <div class="col d-inline-block">
+                <h1 class="d-inline card-title fs-4">Telefon</h1>
+                <p>
+                  {{ order.customerPhoneNumber }}
+                </p>
+              </div>
+              <div class="col d-inline-block" *ngIf="order.couponCode !== ''">
+                <h1 class="d-inline card-title fs-4">Kupon İndirimi</h1>
+                <p>
+                  {{ -order.couponAmount | currency: "TRY":"symbol" }}
+                </p>
+              </div>
+              <div class="col d-inline-block">
+                <h1 class="d-inline card-title fs-4">Tutar</h1>
+                <p>
+                  {{
+                    order.totalProductPrice -
+                      (order.couponCode !== "" ? order.couponAmount : 0)
+                      | currency: "TRY":"symbol"
+                  }}
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-inline-block">
+                <h1 class="d-inline card-title fs-4">Sipariş Özeti</h1>
+                <p
+                  *ngFor="let product of order.products"
+                  class="text-info mb-1"
+                >
+                  {{ product.count }} x
+                  <a
+                    class="link link-success"
+                    [routerLink]="['/product', product.productId]"
+                    >{{ product.productName }}</a
+                  >
+                  ( {{ product.count }} x {{ product.pricePerProduct }} ) =
+                  {{
+                    product.pricePerProduct * product.count
+                      | currency: "TRY":"symbol"
+                  }}
+                </p>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-6 d-inline-block">
+                <h1 class="d-inline card-title fs-4">Adres</h1>
+                <div>
+                  <span class="text-secondary">Adres Tanımı</span>
+                  <p class="form-control">{{ order.addressTitle }}</p>
+                </div>
+                <div>
+                  <span class="text-secondary">Adres Tarifi</span>
+                  <p class="form-control">{{ order.addressDescription }}</p>
+                </div>
+                <div>
+                  <span class="text-secondary">Şehir</span>
+                  <p class="form-control">{{ order.addressCity }}</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <h1 class="d-inline card-title fs-4">Durum</h1>
+
+                  <div
+                    *ngIf="order.status === OrderStatus.AwaitingPayment"
+                    class="mt-2"
+                  >
+                    <h2 class="card-subtitle fs-5">Ödeme bekleniyor.</h2>
+                    <a
+                      [href]="order.checkoutSessionUrl"
+                      class="link-success fs-5 mt-3 d-inline-block"
+                      >Ödeme Ekranına Git &rarr;</a
+                    >
+                  </div>
+
+                  <h2
+                    class="card-subtitle fs-5"
+                    *ngIf="order.status === OrderStatus.AwaitingShipment"
+                  >
+                    Kargoya verilecek.
+                  </h2>
+                  <h2
+                    class="card-title fs-5"
+                    *ngIf="order.status === OrderStatus.Canceled"
+                  >
+                    Siparişiniz iptal edilmiştir.
+                  </h2>
+                  <h2
+                    class="card-title fs-5"
+                    *ngIf="order.status === OrderStatus.Shipped"
+                  >
+                    Siparişiniz kargolandı.
+                  </h2>
+                  <h2
+                    class="card-title fs52"
+                    *ngIf="order.status === OrderStatus.Returned"
+                  >
+                    Siparişiniz iade edilmiştir.
+                  </h2>
+                </div>
+                <div class="row"></div>
+              </div>
+            </div>
+            <!-- <div class="container">
+              <div class="row">
+                <div class="col">
+
+                  <button (click)="toggleCollapse()" class="btn btn-primary" type="button">
+                    Button with data-bs-target
+                  </button>
+
+                  <div class="mt-4" id="collapseExample" *ngIf="visible">
+                    <div>
+                      <div class="rate-stars">
+                        <app-rate-stars (newItemEvent)="changeSetStar($event)"></app-rate-stars>
+                      </div>
+                      
+                      <div class="form-floating mb-3 has-validation">
+                        <div >
+                          <form
+                        id = "comment-form"
+                        [formGroup]="commentForm"
+                        (ngSubmit)="onCommentSubmit(order)"
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          ngModel name = "comment"
+                          id="comment"
+                          placeholder="Yorum"
+                          formControlName="comment"
+                        />
+                        <label for="firstName"></label>
+                        <div class="row">
+                          <button
+                        class="btn btn-primary profile-button w-25 ms-3"
+                        type="submit"
+                        >
+                          Kaydet
+                        </button>
+                        </div>
+                        
+                        </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="this.dataCount > 0" class="d-flex mt-4 justify-content-center">
+  <ngb-pagination
+    [collectionSize]="dataCount"
+    [(page)]="pageNumber"
+    [pageSize]="pageSize"
+    (pageChange)="onPageChange($event)"
+  ></ngb-pagination>
+</div>

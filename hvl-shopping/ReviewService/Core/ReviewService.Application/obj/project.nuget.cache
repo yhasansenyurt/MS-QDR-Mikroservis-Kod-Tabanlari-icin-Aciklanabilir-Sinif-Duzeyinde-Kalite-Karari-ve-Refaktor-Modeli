@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+Dt8nNaD4Us=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joseph\\Desktop\\YTK Project Analysis\\hvl-shopping\\ReviewService\\Core\\ReviewService.Application\\ReviewService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joseph\\.nuget\\packages\\mongodb.bson\\2.17.1\\mongodb.bson.2.17.1.nupkg.sha512",
+    "C:\\Users\\Joseph\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
